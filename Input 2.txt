@@ -1,0 +1,1 @@
+In the second file, I decided to write that working with files is difficult for me because the actions of the functions are not obvious to me.

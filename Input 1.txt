@@ -1,0 +1,1 @@
+Words in the file to check for the presence in the fifth task of the sixth lesson of the course basics of C++.
