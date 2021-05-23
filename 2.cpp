@@ -7,10 +7,14 @@ int main()
 {
 	const size_t D1 = 4;
 	const size_t D2 = 4;
-	int **pA;
-	pA = new int *[D1];
+	int **pA = new int *[D1];
 	PointerA(D1, D2, pA);
 	FilFunc(D1, D2, pA);
+	for (size_t i = 0; i < D1; i++)
+	{
+		delete[] pA[i];
+	}
+	delete[] pA;
 	return 0;
 }
 void PointerA(const size_t D1, const size_t D2, int **pA)
